@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/aarongreen85/alertmanager-gitops-example.git
-    targetRevision: master
+    targetRevision: main
     path: gitops/components/alertmanager/
   destination:
     server: https://kubernetes.default.svc
